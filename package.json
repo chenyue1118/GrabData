@@ -1,0 +1,27 @@
+{
+  "name": "grabdata",
+  "version": "1.0.0",
+  "description": "mode",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenyue1118/GrabData.git"
+  },
+  "author": "chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenyue1118/GrabData/issues"
+  },
+  "homepage": "https://github.com/chenyue1118/GrabData#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "superagent": "^5.3.1",
+    "superagent-proxy": "^2.0.0"
+  }
+}
