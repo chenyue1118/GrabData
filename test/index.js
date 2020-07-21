@@ -6,7 +6,7 @@ require('superagent-proxy')(superagent)
 
 const proxy = 'http://127.0.0.1:53866'
 
-app.use('/', (req, res) => {
+app.use('/gg', (req, res) => {
   const url = 'https://www.google.com/'
   superagent
     .get(url)
