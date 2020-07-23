@@ -4,8 +4,9 @@ const app = express()
 const mulrer = ({ dst: '/'})
 app.use(express.static('./upload'))
 
-app.use('/userInfo', (req, res) => {
-  console.log(req,file);
+app.use('/userInfo', single(file), (req, res) => {
+  console.log(req.query.file)
+  console.log(req,file)
   send(1)
 })
 
